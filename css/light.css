@@ -1,0 +1,48 @@
+.light {
+    inline-size: .5rem;
+    block-size: .5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.light.is-big {
+    inline-size: 2rem;
+    block-size: 2rem;
+    border: .125rem solid white;
+    box-sizing: border-box;
+}
+
+.light.is-sky {
+    background: #28AAFD;
+}
+
+.light.is-red {
+    background: #A6001C;
+}
+
+.light.is-yellow {
+    background: #CCB313;
+}
+
+.light.is-green {
+    background: #489E55;
+}
+
+.light.is-animated {
+    animation: light .3s linear infinite;
+}
+
+
+@keyframes light {
+    0% {
+        background: #196A9E;
+    }
+
+    50% {
+        background: #A1DAFE;
+    }
+
+    100% {
+        background: #196A9E;
+    }
+}

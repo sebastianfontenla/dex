@@ -1,0 +1,69 @@
+::first-letter {
+    text-transform: uppercase;
+}
+
+#contenedor {
+    width: 200px;
+    text-align: center;
+    background-color: #4DB05B;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: black;
+    padding: 0.5rem;
+    height: 130px;
+    overflow: auto;
+}
+
+#name {
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    background-color: #163355;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-block-size: 100vh;
+    flex-wrap: wrap;
+}
+
+
+
+#actions {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+#lastline {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+#pokedex-main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#pokeid {
+    border-radius: 2rem;
+    height: 2rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}

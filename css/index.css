@@ -1,0 +1,15 @@
+@import './btn.css';
+@import './header.css';
+@import './light.css';
+@import './style.css';
+@import './screen.css';
+
+
+
+#pokedex-main {
+    gap: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0.5rem;
+    background-color: #DC0A2D;
+    width: 400px;
+    height: 600px;
+}

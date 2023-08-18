@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <main id="dex">
+
+        <section id="pokedex-main">
+            <div class="header">
+                <span class="light is-big is-sky"></span>
+                <span class="light is-red"></span>
+                <span class="light is-yellow"></span>
+                <span class="light is-green"></span>
+            </div>
+            <div id="pantalla">
+                <div id="screen-border">
+                    <div id="screen">
+                        <img id="img" src="img/pokedex.png" alt="pokemon-name" width="30">
+                    </div>
+                </div>
+
+                <!-- Aca vamos a poner las imagenes de los pokemon -->
+            </div>
+            <div id="actions">
+                <div id="midline"><input type="button" id="rng" name="rng">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <form id="form" autocomplete="off">
+                    <input id="pokeid" type="text" name="pokemon" placeholder="Nombre o numero del dex">
+                    <input type="button" id="buscar" name="buscar">
+                </form>
+                <div id="lastline">
+
+                    <div id="contenedor">
+                        <span id="name"></span>
+
+                        <p id="description"></p>
+                    </div>
+                    <div id="pad">
+                        <input type="button" class="pad" id="rotar-mas" name="imagen" class="img">
+                        <input type="button" class="pad" id="pkm-anterior" name="pkm-anterior">
+                        <input type="button" class="pad" id="pkm-siguiente" name="pkm-siguiente">
+                        <input type="button" class="pad" id="rotar-menos" name="imagen" class="img">
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <script src="js/index.js" type="module"></script>
+
+</body>
+
+</html>

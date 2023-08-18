@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 80%;
+}
+
+
+.header .light {
+    margin-inline-end: .5rem;
+}
+
+.header .light.is-big {
+    margin-inline-end: 1rem;
+}

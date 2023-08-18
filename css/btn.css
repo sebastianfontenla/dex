@@ -1,0 +1,63 @@
+#pad {
+    --buttonSize: 1.5rem;
+    grid-area: navigation;
+    display: grid;
+    grid-template-columns: repeat(3, var(--buttonSize));
+    grid-template-rows: repeat(3, var(--buttonSize));
+    grid-template-areas: '. up .' 'left center right' '. down .';
+}
+
+#pad::after {
+    content: '';
+    grid-area: center;
+    background-color: #163355;
+}
+
+#pad>.pad {
+    background-color: #163355;
+    cursor: pointer;
+    border: none;
+    cursor: pointer;
+}
+
+#pkm-anterior {
+    grid-area: left;
+    filter: drop-shadow(0 2px 0 #300F16);
+}
+
+#pkm-siguiente {
+    grid-area: right;
+    filter: drop-shadow(2px 2px 0 #300F16);
+}
+
+#rotar-mas {
+    grid-area: up;
+    filter: drop-shadow(2px 0 0 #300F16);
+}
+
+#rotar-menos {
+    grid-area: down;
+    filter: drop-shadow(2px 2px 0 #300F16);
+}
+
+#rng {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #163355;
+    border: none;
+    filter: drop-shadow(2px 2px 0 #300F16);
+    gap: 1rem;
+    cursor: pointer;
+}
+
+#buscar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #163355;
+    border: none;
+    filter: drop-shadow(2px 2px 0 #300F16);
+    cursor: pointer;
+    margin-top: 2px;
+}
