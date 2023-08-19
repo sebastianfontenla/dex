@@ -30,7 +30,7 @@ async function buscar() {
         speechSynthesis.cancel()
         activepkm = await insertar(textbox.value);
     } catch {
-        document.getElementById("description").innerHTML = "error : no se encontro ese pokemon"
+        document.getElementById("description").innerHTML = "Error: no se encontro ese pokemon"
     }
 }
 
